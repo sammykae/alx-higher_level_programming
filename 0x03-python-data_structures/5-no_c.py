@@ -5,4 +5,3 @@ def no_c(my_string):
     copy_str = [i for i in my_string if i != 'c' and  i != "C"]
     return ("".join(copy_str))
 
-print(no_c("Chicago"))
