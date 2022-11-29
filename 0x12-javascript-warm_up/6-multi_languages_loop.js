@@ -1,5 +1,4 @@
 #!/usr/bin/node
-let myArr = ["C is fun", "Python is cool", "Javascript is amazing"];
-for (let line of myArr) {
+for (const line of ["C is fun", "Python is cool", "Javascript is amazing"]) {
 	console.log(line);
 }
